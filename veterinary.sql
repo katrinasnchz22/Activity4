@@ -145,6 +145,10 @@ WHERE name = 'Simba';
 UPDATE doctors
 SET dlastname = 'Reyes-Gonzales' WHERE doctorid = 4;
 
+SELECT DISTINCT species
+FROM appointments;
+
+
 
 
 
