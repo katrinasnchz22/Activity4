@@ -85,5 +85,18 @@ VALUES
 (9, 'Coco', 'Dog', 'Dachshund', '2016-09-08', 'Female', 'Chocolate Brown', 5),
 (10, 'Echo', 'Cat', 'Abyssinian', '2024-02-16', 'Male', 'Ruddy', 8);
 
+INSERT INTO appointments (appointid, animalid, appointdate, reason)
+VALUES
+    (1,  3,  '2025-11-01', 'Annual physical examination'),
+    (2,  7,  '2025-11-01', 'Vaccination booster'),
+    (3,  1,  '2025-11-02', 'Skin irritation check-up'),
+    (4,  10, '2025-11-02', 'Dietary consultation'),
+    (5,  4,  '2025-11-03', 'Dental cleaning'),
+    (6,  8,  '2025-11-03', 'Follow-up on previous injury'),
+    (7,  2,  '2025-11-04', 'Routine deworming'),
+    (8,  9,  '2025-11-05', 'Behavioral assessment'),
+    (9,  5,  '2025-11-06', 'Post-surgery evaluation'),
+    (10, 6,  '2025-11-07', 'General health check-up');
+
 
 
