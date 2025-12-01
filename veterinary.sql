@@ -72,5 +72,18 @@ VALUES
 (9, 'Selene', 'Riversong', 'Moonwater Village, Azure Plains', '09467788990', 'selene.riversong@ripplemail.org'),
 (10, 'Finn', 'Brightspark', 'Gadget Row, Clockwork District', '09574561278', 'finn.brightspark@mechtech.io');
 
+INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
+VALUES
+(1, 'Milo', 'Cat', 'Siamese', '2020-05-20', 'Male', 'Cream & Brown', 4),
+(2, 'Luna', 'Dog', 'Shiba Inu', '2019-12-11', 'Female', 'Red Sesame', 7),
+(3, 'Oreo', 'Cat', 'British Shorthair', '2021-08-03', 'Male', 'Black & White', 2),
+(4, 'Hazel', 'Dog', 'Cocker Spaniel', '2018-03-25', 'Female', 'Golden Brown', 9),
+(5, 'Nova', 'Cat', 'Sphynx', '2022-09-14', 'Female', 'Pinkish Cream', 1),
+(6, 'Rocky', 'Dog', 'German Shepherd', '2017-10-19', 'Male', 'Black & Tan', 6),
+(7, 'Piper', 'Dog', 'Border Collie', '2023-04-22', 'Female', 'Black & White', 3),
+(8, 'Ash', 'Cat', 'Norwegian Forest', '2021-02-27', 'Male', 'Gray & White', 10),
+(9, 'Coco', 'Dog', 'Dachshund', '2016-09-08', 'Female', 'Chocolate Brown', 5),
+(10, 'Echo', 'Cat', 'Abyssinian', '2024-02-16', 'Male', 'Ruddy', 8);
+
 
 
