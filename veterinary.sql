@@ -44,3 +44,15 @@ appointid INT,
 totalamount DECIMAL(10, 2),
 paymentdate TIME
 );
+
+CREATE TABLE medicalrecords(
+    recordid INT PRIMARY KEY,
+    animalid INT,
+    recorddate DATETIME,
+    doctorid INT,
+    diagnosis VARCHAR(255),
+    prescription VARCHAR(255),
+    notes VARCHAR(255),
+    FOREIGN KEY (animalid) REFERENCES animals(animalid),
+    FOREIGN KEY (doctorid) REFERENCES doctors(doctorid)
+);
