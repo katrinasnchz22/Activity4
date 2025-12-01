@@ -1,4 +1,4 @@
-# Activity4 - Veterinary DB
+# Activity4
 
 ## Collaborators
 -Sanchez, Katrina Mae G.
