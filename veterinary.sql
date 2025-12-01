@@ -148,6 +148,10 @@ SET dlastname = 'Reyes-Gonzales' WHERE doctorid = 4;
 SELECT DISTINCT species
 FROM appointments;
 
+SELECT SUM(totalamount)
+AS TotalSales FROM invoices;
+
+
 
 
 
