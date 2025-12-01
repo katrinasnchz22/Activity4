@@ -139,4 +139,8 @@ ADD REGISTEREDDATE DATE;
 ALTER TABLE invoices 
 RENAME COLUMN paymentdate TO paymenttime;
 
+DELETE FROM appointments
+WHERE name = 'Simba';
+
+
 
