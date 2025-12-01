@@ -56,3 +56,21 @@ CREATE TABLE medicalrecords(
     FOREIGN KEY (animalid) REFERENCES animals(animalid),
     FOREIGN KEY (doctorid) REFERENCES doctors(doctorid)
 );
+
+INSERT INTO owners(
+    ownerid, ofirstname, olastname, address, phone, email
+)
+VALUES
+(1, 'Astra', 'Moonfield', 'Crystal Ridge, Northstar Valley', '09194561234', 'astra.moonfield@stargaze.com'),
+(2, 'Rico', 'Driftwood', 'Shoreline Avenue, Coral Bay', '09287654321', 'ricodriftwood@seabreeze.net'),
+(3, 'Elara', 'Solstice', 'Sunhaven District, Lumina City', '09375649821', 'elara.solstice@lumina.co'),
+(4, 'Jaxon', 'Blackwell', 'Ironforge Street, Emberfall', '09451234987', 'jax.blackwell@forgeworks.io'),
+(5, 'Talia', 'Evergreen', 'Whisperwind Road, Evergreen Forest', '09562347986', 'talia@evergreenforest.org'),
+(6, 'Orion', 'Skylark', 'Cloudcrest Heights, Skyreach', '09178453629', 'orion.skylark@celesteair.com'),
+(7, 'Mira', 'Lockhart', 'Silverwood Lane, Frostholm', '09286753145', 'mira.lockhart@silvermail.net'),
+(8, 'Kael', 'Stormborn', 'Thunderpeak Ridge, Stormhold', '09399887722', 'kael.stormborn@thunderhub.gg'),
+(9, 'Selene', 'Riversong', 'Moonwater Village, Azure Plains', '09467788990', 'selene.riversong@ripplemail.org'),
+(10, 'Finn', 'Brightspark', 'Gadget Row, Clockwork District', '09574561278', 'finn.brightspark@mechtech.io');
+
+
+
